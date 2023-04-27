@@ -1,6 +1,6 @@
 var request = require('supertest');
 var app = require('../index.js');describe('GET /', function() {
- it('respond with hello world', function(done) { //navigate to root and check the the response is "hello world"
- request(app).get('/').expect('hello World', done);
+ it('respond with Hello World', function(done) { //navigate to root and check t>
+ request(app).get('/').expect('Hello World', done);
  });
 });
